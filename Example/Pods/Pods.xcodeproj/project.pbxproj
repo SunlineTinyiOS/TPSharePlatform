@@ -1,0 +1,749 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12CAD810AC6EA8FA79F2894D26944823 /* Pods-TPSharePlatform_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C095515C2BA891CC37E7814C77EA5C13 /* Pods-TPSharePlatform_Tests-dummy.m */; };
+		174A6ACE47CDFB1859218E4B39D23F6E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		1F9FED64388B944A20661D8A52613315 /* TPSharePlatform-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C589B59D462B0FBADF51FFAE96563F78 /* TPSharePlatform-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E061750FDBB969CC28AFCA372A252DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		5551DF6B84A1F8E2E3B27008A53396BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		727D2A4DA7C8C54569B0B7C639A840ED /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD6AA29295A0C3F03B842162BED2EAA /* ReplaceMe.m */; };
+		7D552780E4F2A14EB3428F207F87FAD7 /* Pods-TPSharePlatform_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 964D885652E1FFA7B6AAE85343A91F16 /* Pods-TPSharePlatform_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90F962883A7AF17132FA32CB9567C3C9 /* TPSharePlatform-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EF40E81415B6A15808B7E55872F0606 /* TPSharePlatform-dummy.m */; };
+		A5C96D1E4C6822A5022C475DE079DC9A /* Pods-TPSharePlatform_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF4CA7E2C57CC1808D47A2061121F51 /* Pods-TPSharePlatform_Example-dummy.m */; };
+		AED0BE081EC81E9C00D60FDB /* TPSharePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = AED0BE061EC81E9C00D60FDB /* TPSharePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AED0BE091EC81E9C00D60FDB /* TPSharePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = AED0BE071EC81E9C00D60FDB /* TPSharePlatform.m */; };
+		AED0BE0D1EC81F7600D60FDB /* UMSocialCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AED0BE0A1EC81F7600D60FDB /* UMSocialCore.framework */; };
+		AED0BE0E1EC81F7600D60FDB /* UMSocialNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AED0BE0B1EC81F7600D60FDB /* UMSocialNetwork.framework */; };
+		AED0BE101EC820D000D60FDB /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AED0BE0F1EC820D000D60FDB /* libsqlite3.tbd */; };
+		AED0BE121EC820DC00D60FDB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AED0BE111EC820DC00D60FDB /* CoreGraphics.framework */; };
+		D19357DC99F1B0CE9400A6C1B3982AED /* Pods-TPSharePlatform_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BACBE6B3FF8BCFF1C816A231AB42B59C /* Pods-TPSharePlatform_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		09CCDFE089908799D90CDB95C7B91BA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75FA66DE2C562494C93AAB462372FA80;
+			remoteInfo = TPSharePlatform;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		142896F40ACE076702EB6E4ACBD3BE7A /* TPSharePlatform.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TPSharePlatform.modulemap; sourceTree = "<group>"; };
+		2122DAA963BDA64783EEB7D3DD473DB0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C7372CD436A3AC9752D087D4F4BD732 /* TPSharePlatform.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TPSharePlatform.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DB55B651060782D2A6B23E7815ADAE9 /* Pods-TPSharePlatform_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TPSharePlatform_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		3C9A6FBA58944CD43F99210725C66EA5 /* Pods-TPSharePlatform_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TPSharePlatform_Example.modulemap"; sourceTree = "<group>"; };
+		4C51E8ACF1D7D5AD512FC75C9CA1FDA9 /* Pods-TPSharePlatform_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TPSharePlatform_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5EF40E81415B6A15808B7E55872F0606 /* TPSharePlatform-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TPSharePlatform-dummy.m"; sourceTree = "<group>"; };
+		5FA70EFD70B42D74825F8D7BD80C3A59 /* Pods-TPSharePlatform_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TPSharePlatform_Tests.modulemap"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		66183E91B0D1E8E65760D1DE18970879 /* TPSharePlatform-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TPSharePlatform-prefix.pch"; sourceTree = "<group>"; };
+		6CD6AA29295A0C3F03B842162BED2EAA /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		760C473C663B158123DAC5BA5B5650F0 /* Pods-TPSharePlatform_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TPSharePlatform_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		785366926685B115090E25BEBD127445 /* Pods-TPSharePlatform_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TPSharePlatform_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7D10D71265D4F0D8D6A90891DA0B57B9 /* Pods-TPSharePlatform_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TPSharePlatform_Example-resources.sh"; sourceTree = "<group>"; };
+		89E5BE7EC24704A971BE2B9EA3AC5974 /* Pods-TPSharePlatform_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TPSharePlatform_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		964D885652E1FFA7B6AAE85343A91F16 /* Pods-TPSharePlatform_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TPSharePlatform_Tests-umbrella.h"; sourceTree = "<group>"; };
+		9F76059705286B0DF3E1A6C686DDD3A5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0A6CDA234756B6FBC147C8CF033B84A /* Pods-TPSharePlatform_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TPSharePlatform_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		A64A42AD6F86C388B39784B336693E59 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AED0BE061EC81E9C00D60FDB /* TPSharePlatform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPSharePlatform.h; sourceTree = "<group>"; };
+		AED0BE071EC81E9C00D60FDB /* TPSharePlatform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPSharePlatform.m; sourceTree = "<group>"; };
+		AED0BE0A1EC81F7600D60FDB /* UMSocialCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMSocialCore.framework; sourceTree = "<group>"; };
+		AED0BE0B1EC81F7600D60FDB /* UMSocialNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMSocialNetwork.framework; sourceTree = "<group>"; };
+		AED0BE0C1EC81F7600D60FDB /* UMSocialSDKPromptResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = UMSocialSDKPromptResources.bundle; sourceTree = "<group>"; };
+		AED0BE0F1EC820D000D60FDB /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/usr/lib/libsqlite3.tbd; sourceTree = DEVELOPER_DIR; };
+		AED0BE111EC820DC00D60FDB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		B1E23FC66FF10CB67E8BC5C3A235B94F /* Pods_TPSharePlatform_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TPSharePlatform_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2683E393A50B199BB9D9309BD11E700 /* TPSharePlatform.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TPSharePlatform.xcconfig; sourceTree = "<group>"; };
+		BA37A82406511CFF94892EB720E21D34 /* Pods-TPSharePlatform_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TPSharePlatform_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BACBE6B3FF8BCFF1C816A231AB42B59C /* Pods-TPSharePlatform_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TPSharePlatform_Example-umbrella.h"; sourceTree = "<group>"; };
+		C095515C2BA891CC37E7814C77EA5C13 /* Pods-TPSharePlatform_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TPSharePlatform_Tests-dummy.m"; sourceTree = "<group>"; };
+		C589B59D462B0FBADF51FFAE96563F78 /* TPSharePlatform-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TPSharePlatform-umbrella.h"; sourceTree = "<group>"; };
+		E6976CFD95C109169C5045FA3E494E97 /* Pods-TPSharePlatform_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TPSharePlatform_Tests-resources.sh"; sourceTree = "<group>"; };
+		E9CD0BEA201B8724DB8ADC9BB2EF854B /* Pods_TPSharePlatform_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TPSharePlatform_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECEB938B879EC72F97C0EA4400137F22 /* Pods-TPSharePlatform_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TPSharePlatform_Example-frameworks.sh"; sourceTree = "<group>"; };
+		F0A826BF0ED4B5367B3B85DDEEE01C9C /* Pods-TPSharePlatform_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TPSharePlatform_Example.release.xcconfig"; sourceTree = "<group>"; };
+		FAF4CA7E2C57CC1808D47A2061121F51 /* Pods-TPSharePlatform_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TPSharePlatform_Example-dummy.m"; sourceTree = "<group>"; };
+		FC13FD0FDAC16C09137962DFE2C80C55 /* Pods-TPSharePlatform_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TPSharePlatform_Tests-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5FDA801566F19D52CFEA1C58394ADBA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AED0BE121EC820DC00D60FDB /* CoreGraphics.framework in Frameworks */,
+				AED0BE101EC820D000D60FDB /* libsqlite3.tbd in Frameworks */,
+				AED0BE0D1EC81F7600D60FDB /* UMSocialCore.framework in Frameworks */,
+				5551DF6B84A1F8E2E3B27008A53396BD /* Foundation.framework in Frameworks */,
+				AED0BE0E1EC81F7600D60FDB /* UMSocialNetwork.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94EB059C6B09FA14D6B05BF3F760F1A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E061750FDBB969CC28AFCA372A252DA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAAA9E523EF3AF8064A5C9D1770E175D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				174A6ACE47CDFB1859218E4B39D23F6E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1113DD1E5BC67DEBB331D35E216C3B0C /* Pods-TPSharePlatform_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9F76059705286B0DF3E1A6C686DDD3A5 /* Info.plist */,
+				5FA70EFD70B42D74825F8D7BD80C3A59 /* Pods-TPSharePlatform_Tests.modulemap */,
+				BA37A82406511CFF94892EB720E21D34 /* Pods-TPSharePlatform_Tests-acknowledgements.markdown */,
+				89E5BE7EC24704A971BE2B9EA3AC5974 /* Pods-TPSharePlatform_Tests-acknowledgements.plist */,
+				C095515C2BA891CC37E7814C77EA5C13 /* Pods-TPSharePlatform_Tests-dummy.m */,
+				FC13FD0FDAC16C09137962DFE2C80C55 /* Pods-TPSharePlatform_Tests-frameworks.sh */,
+				E6976CFD95C109169C5045FA3E494E97 /* Pods-TPSharePlatform_Tests-resources.sh */,
+				964D885652E1FFA7B6AAE85343A91F16 /* Pods-TPSharePlatform_Tests-umbrella.h */,
+				760C473C663B158123DAC5BA5B5650F0 /* Pods-TPSharePlatform_Tests.debug.xcconfig */,
+				785366926685B115090E25BEBD127445 /* Pods-TPSharePlatform_Tests.release.xcconfig */,
+			);
+			name = "Pods-TPSharePlatform_Tests";
+			path = "Target Support Files/Pods-TPSharePlatform_Tests";
+			sourceTree = "<group>";
+		};
+		2E82301F9B057EF04F123EA209FBFADC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9CD0BEA201B8724DB8ADC9BB2EF854B /* Pods_TPSharePlatform_Example.framework */,
+				B1E23FC66FF10CB67E8BC5C3A235B94F /* Pods_TPSharePlatform_Tests.framework */,
+				2C7372CD436A3AC9752D087D4F4BD732 /* TPSharePlatform.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		348493485AFED3D995FB6F14EAF84F82 /* TPSharePlatform */ = {
+			isa = PBXGroup;
+			children = (
+				6CA25031AE0569F9FD4EF65923F1F40D /* Support Files */,
+				70B7A13D8C67BB15AE871D0F854ADBCF /* TPSharePlatform */,
+			);
+			name = TPSharePlatform;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		40D09D0E87DCE74E8EE582C675E0B019 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AED0BE061EC81E9C00D60FDB /* TPSharePlatform.h */,
+				AED0BE071EC81E9C00D60FDB /* TPSharePlatform.m */,
+				6CD6AA29295A0C3F03B842162BED2EAA /* ReplaceMe.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		6CA25031AE0569F9FD4EF65923F1F40D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2122DAA963BDA64783EEB7D3DD473DB0 /* Info.plist */,
+				142896F40ACE076702EB6E4ACBD3BE7A /* TPSharePlatform.modulemap */,
+				B2683E393A50B199BB9D9309BD11E700 /* TPSharePlatform.xcconfig */,
+				5EF40E81415B6A15808B7E55872F0606 /* TPSharePlatform-dummy.m */,
+				66183E91B0D1E8E65760D1DE18970879 /* TPSharePlatform-prefix.pch */,
+				C589B59D462B0FBADF51FFAE96563F78 /* TPSharePlatform-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TPSharePlatform";
+			sourceTree = "<group>";
+		};
+		70B7A13D8C67BB15AE871D0F854ADBCF /* TPSharePlatform */ = {
+			isa = PBXGroup;
+			children = (
+				40D09D0E87DCE74E8EE582C675E0B019 /* Classes */,
+			);
+			path = TPSharePlatform;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				F83811A17B63B0280E98009A41010619 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				2E82301F9B057EF04F123EA209FBFADC /* Products */,
+				B3BF731E03E7A689C75673DA890CF167 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B3BF731E03E7A689C75673DA890CF167 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E52DA1165A74CD9B2DCF490B9A90428D /* Pods-TPSharePlatform_Example */,
+				1113DD1E5BC67DEBB331D35E216C3B0C /* Pods-TPSharePlatform_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AED0BE111EC820DC00D60FDB /* CoreGraphics.framework */,
+				AED0BE0F1EC820D000D60FDB /* libsqlite3.tbd */,
+				AED0BE0A1EC81F7600D60FDB /* UMSocialCore.framework */,
+				AED0BE0B1EC81F7600D60FDB /* UMSocialNetwork.framework */,
+				AED0BE0C1EC81F7600D60FDB /* UMSocialSDKPromptResources.bundle */,
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E52DA1165A74CD9B2DCF490B9A90428D /* Pods-TPSharePlatform_Example */ = {
+			isa = PBXGroup;
+			children = (
+				A64A42AD6F86C388B39784B336693E59 /* Info.plist */,
+				3C9A6FBA58944CD43F99210725C66EA5 /* Pods-TPSharePlatform_Example.modulemap */,
+				4C51E8ACF1D7D5AD512FC75C9CA1FDA9 /* Pods-TPSharePlatform_Example-acknowledgements.markdown */,
+				A0A6CDA234756B6FBC147C8CF033B84A /* Pods-TPSharePlatform_Example-acknowledgements.plist */,
+				FAF4CA7E2C57CC1808D47A2061121F51 /* Pods-TPSharePlatform_Example-dummy.m */,
+				ECEB938B879EC72F97C0EA4400137F22 /* Pods-TPSharePlatform_Example-frameworks.sh */,
+				7D10D71265D4F0D8D6A90891DA0B57B9 /* Pods-TPSharePlatform_Example-resources.sh */,
+				BACBE6B3FF8BCFF1C816A231AB42B59C /* Pods-TPSharePlatform_Example-umbrella.h */,
+				2DB55B651060782D2A6B23E7815ADAE9 /* Pods-TPSharePlatform_Example.debug.xcconfig */,
+				F0A826BF0ED4B5367B3B85DDEEE01C9C /* Pods-TPSharePlatform_Example.release.xcconfig */,
+			);
+			name = "Pods-TPSharePlatform_Example";
+			path = "Target Support Files/Pods-TPSharePlatform_Example";
+			sourceTree = "<group>";
+		};
+		F83811A17B63B0280E98009A41010619 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				348493485AFED3D995FB6F14EAF84F82 /* TPSharePlatform */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1FEDA0F790018901FE593DA822EC2B32 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F9FED64388B944A20661D8A52613315 /* TPSharePlatform-umbrella.h in Headers */,
+				AED0BE081EC81E9C00D60FDB /* TPSharePlatform.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7FC64AABCA4879DAF1D76C30D359E9F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D19357DC99F1B0CE9400A6C1B3982AED /* Pods-TPSharePlatform_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA620C87E62230DB5B7044D1ECE8E354 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D552780E4F2A14EB3428F207F87FAD7 /* Pods-TPSharePlatform_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		44AA13428403F83E3B7F818F94A9C430 /* Pods-TPSharePlatform_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D25295D88B4390E3487DA9B9DCD0E6D5 /* Build configuration list for PBXNativeTarget "Pods-TPSharePlatform_Tests" */;
+			buildPhases = (
+				7EBB64C2D2AC86E538C937DE10BD0BF3 /* Sources */,
+				94EB059C6B09FA14D6B05BF3F760F1A7 /* Frameworks */,
+				DA620C87E62230DB5B7044D1ECE8E354 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TPSharePlatform_Tests";
+			productName = "Pods-TPSharePlatform_Tests";
+			productReference = B1E23FC66FF10CB67E8BC5C3A235B94F /* Pods_TPSharePlatform_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		75FA66DE2C562494C93AAB462372FA80 /* TPSharePlatform */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E4760E3642E6C3A5FF4E9DF79652D82 /* Build configuration list for PBXNativeTarget "TPSharePlatform" */;
+			buildPhases = (
+				0CDA3D2BF92428CC3D484FCB5D1C56DA /* Sources */,
+				5FDA801566F19D52CFEA1C58394ADBA3 /* Frameworks */,
+				1FEDA0F790018901FE593DA822EC2B32 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TPSharePlatform;
+			productName = TPSharePlatform;
+			productReference = 2C7372CD436A3AC9752D087D4F4BD732 /* TPSharePlatform.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		848D425CB73963227C236885CDF55C1A /* Pods-TPSharePlatform_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C83A6DABF3588D71B78C3A489E027F8D /* Build configuration list for PBXNativeTarget "Pods-TPSharePlatform_Example" */;
+			buildPhases = (
+				6230D8303C5F6CD57C2B396C717E16AE /* Sources */,
+				EAAA9E523EF3AF8064A5C9D1770E175D /* Frameworks */,
+				D7FC64AABCA4879DAF1D76C30D359E9F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96BC7BD82B278615516E583691DAA0AC /* PBXTargetDependency */,
+			);
+			name = "Pods-TPSharePlatform_Example";
+			productName = "Pods-TPSharePlatform_Example";
+			productReference = E9CD0BEA201B8724DB8ADC9BB2EF854B /* Pods_TPSharePlatform_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 2E82301F9B057EF04F123EA209FBFADC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				848D425CB73963227C236885CDF55C1A /* Pods-TPSharePlatform_Example */,
+				44AA13428403F83E3B7F818F94A9C430 /* Pods-TPSharePlatform_Tests */,
+				75FA66DE2C562494C93AAB462372FA80 /* TPSharePlatform */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0CDA3D2BF92428CC3D484FCB5D1C56DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				727D2A4DA7C8C54569B0B7C639A840ED /* ReplaceMe.m in Sources */,
+				AED0BE091EC81E9C00D60FDB /* TPSharePlatform.m in Sources */,
+				90F962883A7AF17132FA32CB9567C3C9 /* TPSharePlatform-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6230D8303C5F6CD57C2B396C717E16AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5C96D1E4C6822A5022C475DE079DC9A /* Pods-TPSharePlatform_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EBB64C2D2AC86E538C937DE10BD0BF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12CAD810AC6EA8FA79F2894D26944823 /* Pods-TPSharePlatform_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		96BC7BD82B278615516E583691DAA0AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TPSharePlatform;
+			target = 75FA66DE2C562494C93AAB462372FA80 /* TPSharePlatform */;
+			targetProxy = 09CCDFE089908799D90CDB95C7B91BA0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1452F9A36462DC1D53F3E995B21D7F84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2683E393A50B199BB9D9309BD11E700 /* TPSharePlatform.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TPSharePlatform/TPSharePlatform-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TPSharePlatform/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TPSharePlatform/TPSharePlatform.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = TPSharePlatform;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2927071382200F4B24CD7D184FA5B46B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2683E393A50B199BB9D9309BD11E700 /* TPSharePlatform.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TPSharePlatform/TPSharePlatform-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TPSharePlatform/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TPSharePlatform/TPSharePlatform.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = TPSharePlatform;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94B65A4BB840251CA6FC4FAB78BA6EC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 760C473C663B158123DAC5BA5B5650F0 /* Pods-TPSharePlatform_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TPSharePlatform_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TPSharePlatform_Tests/Pods-TPSharePlatform_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TPSharePlatform_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A0EAF37E64C32FC57FEC7A629BF8348C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0A826BF0ED4B5367B3B85DDEEE01C9C /* Pods-TPSharePlatform_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TPSharePlatform_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TPSharePlatform_Example/Pods-TPSharePlatform_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TPSharePlatform_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B9786661503DFA3D5D88E45DB20AF20F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DB55B651060782D2A6B23E7815ADAE9 /* Pods-TPSharePlatform_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TPSharePlatform_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TPSharePlatform_Example/Pods-TPSharePlatform_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TPSharePlatform_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F8BCA49B234C2377FD5AB012C2C1DC6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 785366926685B115090E25BEBD127445 /* Pods-TPSharePlatform_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TPSharePlatform_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TPSharePlatform_Tests/Pods-TPSharePlatform_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TPSharePlatform_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E4760E3642E6C3A5FF4E9DF79652D82 /* Build configuration list for PBXNativeTarget "TPSharePlatform" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1452F9A36462DC1D53F3E995B21D7F84 /* Debug */,
+				2927071382200F4B24CD7D184FA5B46B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
+				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C83A6DABF3588D71B78C3A489E027F8D /* Build configuration list for PBXNativeTarget "Pods-TPSharePlatform_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9786661503DFA3D5D88E45DB20AF20F /* Debug */,
+				A0EAF37E64C32FC57FEC7A629BF8348C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D25295D88B4390E3487DA9B9DCD0E6D5 /* Build configuration list for PBXNativeTarget "Pods-TPSharePlatform_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94B65A4BB840251CA6FC4FAB78BA6EC0 /* Debug */,
+				F8BCA49B234C2377FD5AB012C2C1DC6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

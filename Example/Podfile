@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TPSharePlatform_Example' do
+  pod 'TPSharePlatform', :path => '../'
+
+  target 'TPSharePlatform_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

@@ -1,0 +1,6 @@
+framework module TPSharePlatform {
+  umbrella header "TPSharePlatform-umbrella.h"
+
+  export *
+  module * { export * }
+}

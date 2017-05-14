@@ -1,0 +1,16 @@
+PODS:
+  - TPSharePlatform (0.1.0)
+
+DEPENDENCIES:
+  - TPSharePlatform (from `../`)
+
+EXTERNAL SOURCES:
+  TPSharePlatform:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TPSharePlatform: 3bdb951f2690f14d1aafaf433fbc4d281695ed2a
+
+PODFILE CHECKSUM: 85fefbe76a22ce86b2360404a93aa5a1bfc1ce3a
+
+COCOAPODS: 1.2.1
