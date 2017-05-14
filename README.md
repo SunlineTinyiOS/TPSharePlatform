@@ -19,6 +19,22 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod "TPSharePlatform"
 ```
+## Usage
+
+```ruby
+    var sharePlatform = new TPSharePlatform();
+    sharePlatform.shareTitle = 'shareTitle';
+    sharePlatform.shareContent = 'shareContent';
+    sharePlatform.platformName = 'wxsession';
+    sharePlatform.success = function(data){
+            alert('分享成功');
+    }
+    sharePlatform.error =function(data){
+        alert(data);
+    }
+    sharePlatform.share();
+```
+
 
 ## Author
 

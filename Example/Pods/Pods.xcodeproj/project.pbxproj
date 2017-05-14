@@ -423,6 +423,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/TPSharePlatform/TPSharePlatform.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "-Objc";
 				PRODUCT_NAME = TPSharePlatform;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -459,6 +460,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/TPSharePlatform/TPSharePlatform.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "-Objc";
 				PRODUCT_NAME = TPSharePlatform;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;

@@ -55,16 +55,14 @@
         
     }
     
-    [[UMSocialManager defaultManager] shareToPlatform:UMSocialPlatformType messageObject:messageObject currentViewController:self completion:^(id data, NSError *terror) {
+    [[UMSocialManager defaultManager] shareToPlatform:UMSocialPlatformType messageObject:messageObject currentViewController:self.viewController completion:^(id data, NSError *terror) {
         NSString *message = nil;
         if (!terror) {
             message = [NSString stringWithFormat:@"分享成功"];
             [self.success callWithArguments:@[message]];
         } else {
             message = [NSString stringWithFormat:@"失败原因Code: %d\n",(int)terror.code];
-            [self.error callWithArguments:@[message]];
-
-            
+            [self.error callWithArguments:@[message]];            
         }
     }];
 }
