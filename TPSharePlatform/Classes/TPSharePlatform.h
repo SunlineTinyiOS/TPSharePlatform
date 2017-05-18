@@ -35,9 +35,15 @@
 @property(nonatomic, strong) JSValue *error;
 
 /**
- *  第三方
+ *  第三方分享
  */
 - (void)share;
+
+/**
+ *  第三方分享
+ */
+- (void)login;
+
 @end
 
 @interface TPSharePlatform : NSObject<TPUmengLoginProtocol>

@@ -9,7 +9,6 @@
 #import "TPSharePlatform.h"
 #import <UMSocialCore/UMSocialCore.h>
 
-
 @implementation TPSharePlatform
 @synthesize shareContent;
 @synthesize shareTitle;
@@ -31,6 +30,7 @@
     }
     return self;
 }
+
 - (void)share
 {
     
@@ -65,6 +65,11 @@
             [self.error callWithArguments:@[message]];            
         }
     }];
+}
+
+- (void)login{
+
+    
 }
 
 -(void)dealloc{

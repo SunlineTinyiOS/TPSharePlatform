@@ -9,7 +9,6 @@
 #import "TPSharePlatformViewController.h"
 #import <TPSharePlatform/TPSharePlatform.h>
 
-
 @interface TPSharePlatformViewController ()
 
 @end
