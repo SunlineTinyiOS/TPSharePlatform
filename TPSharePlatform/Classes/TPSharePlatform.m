@@ -44,12 +44,14 @@
     messageObject.shareObject = shareObject;
     
     //分享的平台
-    NSUInteger UMSocialPlatformType;
+    NSUInteger UMSocialPlatformType = UMSocialPlatformType_UnKnown;
     if([platformName isEqualToString:@"wxtimeline"]){
         UMSocialPlatformType = UMSocialPlatformType_WechatTimeLine;
     }
     else if([platformName isEqualToString:@"wxsession"]){
         UMSocialPlatformType = UMSocialPlatformType_WechatSession;
+    }else if([platformName isEqualToString:@"facebook"]){
+        UMSocialPlatformType = UMSocialPlatformType_Facebook;
     }
     else{
         

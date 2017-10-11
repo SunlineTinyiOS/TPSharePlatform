@@ -15,6 +15,7 @@
  *  平台名称
  *  wxtimeline:朋友圈
  *  wxsession:微信好友
+ *  facebook:facebook
  *  sina:微博
  *  qq:qq好友
  *  qzone:qzone空间
