@@ -90,6 +90,8 @@
             path = [self.shareimage stringByReplacingOccurrencesOfString:@"local:///" withString:@""];
             url=[NSURL fileURLWithPath:path];       //本地的路径
             image = [NSData dataWithContentsOfURL:url];
+            shareObject.thumbImage = [UIImage imageWithData:image];
+            [shareObject setShareImage:[UIImage imageWithData:image]];
         }
         else if([[self.shareimage substringWithRange:NSMakeRange(0, 4)] isEqualToString:@"file"]){
             /*
@@ -103,15 +105,14 @@
             path=[[[NSBundle mainBundle] resourcePath]stringByAppendingPathComponent:PathStr];
             url =[NSURL fileURLWithPath:path];
             image = [NSData dataWithContentsOfURL:url];
+            shareObject.thumbImage = [UIImage imageWithData:image];
+            [shareObject setShareImage:[UIImage imageWithData:image]];
             //本地的路径
         }else{
             path =self.shareimage;
-            url =[NSURL fileURLWithPath:path];
-            image = [NSData dataWithContentsOfURL:url];
+            shareObject.thumbImage = path;
+            [shareObject setShareImage:path];
         }
-        
-        shareObject.thumbImage = [UIImage imageWithData:image];
-        [shareObject setShareImage:[UIImage imageWithData:image]];
         
         //分享消息对象设置分享内容对象
         messageObject.shareObject = shareObject;
@@ -149,4 +150,3 @@
 }
 
 @end
-
