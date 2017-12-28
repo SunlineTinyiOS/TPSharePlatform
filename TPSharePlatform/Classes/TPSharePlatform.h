@@ -15,13 +15,15 @@
  *  平台名称
  *  wxtimeline:朋友圈
  *  wxsession:微信好友
- *  facebook:facebook
  *  sina:微博
  *  qq:qq好友
  *  qzone:qzone空间
  */
 @property(nonatomic, strong) NSString *platformName;
-@property(nonatomic, strong) NSString *shareContent;//分享的内容
+/**
+ *  分享的内容
+ */
+@property(nonatomic, strong) NSString *shareContent;
 
 /**
  *  分享跳转地址
@@ -32,19 +34,17 @@
  *  分享标题
  */
 @property(nonatomic, strong) NSString *shareTitle;
+/**
+ *  分享图片
+ */
+@property(nonatomic, strong) NSString *shareimage;
 @property(nonatomic, strong) JSValue *success;
 @property(nonatomic, strong) JSValue *error;
 
 /**
- *  第三方分享
+ *  第三方
  */
 - (void)share;
-
-/**
- *  第三方分享
- */
-- (void)login;
-
 @end
 
 @interface TPSharePlatform : NSObject<TPUmengLoginProtocol>
@@ -52,3 +52,4 @@
 
 
 @end
+
